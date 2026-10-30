@@ -1,0 +1,57 @@
+[
+  {
+    "test_id": "RT-001",
+    "name": "Simulated malicious HTTP request",
+    "description": "Red Team sent a crafted HTTP request that should hit IDS rule Y.",
+    "technique_id": "T1071.001",
+    "expected_detection": "IDS rule Y",
+    "keywords": ["malicious http", "ids", "c2"],
+    "asset_id": "lab-web-01",
+    "executed_at": "2026-10-29T14:01:00Z",
+    "time_window_minutes": 15
+  },
+  {
+    "test_id": "RT-002",
+    "name": "Simulated phishing",
+    "description": "Credential-harvesting email to a mailbox honeypot.",
+    "technique_id": "T1566",
+    "expected_detection": "Phishing email detected",
+    "keywords": ["phish", "credential harvest"],
+    "asset_id": "lab-mail-01",
+    "executed_at": "2026-10-29T14:08:00Z",
+    "time_window_minutes": 15
+  },
+  {
+    "test_id": "RT-003",
+    "name": "Valid accounts login",
+    "description": "Login with a known-compromised test account from an unusual geo.",
+    "technique_id": "T1078",
+    "expected_detection": "Impossible travel login",
+    "keywords": ["valid login", "impossible travel"],
+    "asset_id": "lab-idp-01",
+    "executed_at": "2026-10-29T14:12:00Z",
+    "time_window_minutes": 15
+  },
+  {
+    "test_id": "RT-004",
+    "name": "PowerShell encoded command",
+    "description": "Benign encoded PowerShell used as an execution stand-in.",
+    "technique_id": "T1059.001",
+    "expected_detection": "Encoded PowerShell",
+    "keywords": ["powershell", "encoded"],
+    "asset_id": "lab-win-01",
+    "executed_at": "2026-10-29T14:18:00Z",
+    "time_window_minutes": 15
+  },
+  {
+    "test_id": "RT-005",
+    "name": "Internal port scan",
+    "description": "Low-and-slow TCP connect scan against a lab subnet.",
+    "technique_id": "T1046",
+    "expected_detection": "Network scan detected",
+    "keywords": ["nmap", "port scan"],
+    "asset_id": "lab-net-01",
+    "executed_at": "2026-10-29T14:22:00Z",
+    "time_window_minutes": 15
+  }
+]

@@ -1,0 +1,1322 @@
+2026-10-29 23:09:01,012 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:01,016 INFO purplesync - Querying correlation for test RT-001 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,016 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,016 INFO purplesync - Querying correlation for test RT-003 -> status=Requiring investigation confidence=0.54
+2026-10-29 23:09:01,016 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,016 INFO purplesync - Querying correlation for test RT-005 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:01,092 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:01,092 INFO purplesync - Querying correlation for test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:09:01,092 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:01,098 INFO purplesync - Querying correlation for test RT-001 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,098 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,098 INFO purplesync - Querying correlation for test RT-003 -> status=Requiring investigation confidence=0.54
+2026-10-29 23:09:01,098 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:09:01,098 INFO purplesync - Querying correlation for test RT-005 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:01,098 INFO purplesync - Querying SIEM for test RT-001
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:01,098 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:01,098 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:01,098 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:01,109 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-29 23:09:47,814 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:47,814 INFO purplesync - Querying correlation for test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:47,814 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:09:47,814 INFO purplesync - Querying correlation for test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:47,814 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:09:47,814 INFO purplesync - Querying correlation for test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:09:47,826 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:47,826 INFO purplesync - Querying correlation for test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:09:47,828 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:09:47,828 INFO purplesync - Querying correlation for test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:47,828 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:09:47,828 INFO purplesync - Querying correlation for test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:09:47,830 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:09:47,830 INFO purplesync - Querying correlation for test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:09:47,830 INFO purplesync - Querying SIEM for test RT-001
+2026-10-29 23:09:47,830 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:47,830 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:47,830 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:09:47,830 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:47,830 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:47,830 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:09:47,830 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:47,831 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:47,831 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:09:47,831 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:09:47,831 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-29 23:10:04,674 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:10:04,676 INFO purplesync - Querying correlation for test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:10:04,676 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:10:04,676 INFO purplesync - Querying correlation for test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:10:04,676 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:10:04,676 INFO purplesync - Querying correlation for test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:10:04,686 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-29 23:10:04,686 INFO purplesync - Querying correlation for test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:10:04,686 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-29 23:10:04,686 INFO purplesync - Querying correlation for test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:10:04,686 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:10:04,686 INFO purplesync - Querying correlation for test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-29 23:10:04,693 INFO purplesync - Querying correlation for test RT-004 -> status=Detected confidence=0.95
+2026-10-29 23:10:04,693 INFO purplesync - Querying correlation for test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:10:04,693 INFO purplesync - Querying SIEM for test RT-001
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:10:04,693 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:10:04,693 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:10:04,693 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:10:04,704 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-29 23:35:25,852 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-29 23:35:25,859 INFO purplesync - Querying correlation for test RT-MAN -> status=Detected confidence=0.95
+2026-10-29 23:35:25,859 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:35:25,859 INFO purplesync - Querying correlation for test RT-003 -> status=Detected confidence=0.95
+2026-10-29 23:35:25,859 INFO purplesync - Querying SIEM for test RT-MAN
+2026-10-29 23:35:25,859 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:35:25,859 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:35:25,867 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:35:25,868 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:35:25,869 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:35:25,871 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:35:25,871 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:35:25,871 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:35:25,873 INFO purplesync - UI correlation complete for 3 tests
+2026-10-29 23:40:34,771 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-29 23:40:34,771 INFO purplesync - Querying correlation for test RT-MAN -> status=Detected confidence=0.95
+2026-10-29 23:40:34,771 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:40:34,771 INFO purplesync - Querying correlation for test RT-003 -> status=Detected confidence=0.95
+2026-10-29 23:40:34,771 INFO purplesync - Querying SIEM for test RT-MAN
+2026-10-29 23:40:34,771 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:34,771 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:34,771 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:40:34,771 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:34,787 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:34,804 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:40:34,804 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:34,806 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:34,810 INFO purplesync - UI correlation complete for 3 tests
+2026-10-29 23:40:41,849 INFO purplesync - Correlating 5 Red Team tests against 3 Blue Team logs
+2026-10-29 23:40:41,857 INFO purplesync - Querying correlation for test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:40:41,857 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:40:41,857 INFO purplesync - Querying correlation for test RT-003 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:40:41,857 INFO purplesync - Querying correlation for test RT-004 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:40:41,861 INFO purplesync - Querying correlation for test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-29 23:40:41,861 INFO purplesync - Querying SIEM for test RT-001
+2026-10-29 23:40:41,861 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:41,863 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:41,863 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:40:41,863 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:41,865 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:41,865 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:40:41,865 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:41,865 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:41,867 INFO purplesync - UI correlation complete for 5 tests
+2026-10-29 23:40:58,899 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-29 23:40:58,899 INFO purplesync - Querying correlation for test RT-MAN -> status=Detected confidence=0.95
+2026-10-29 23:40:58,901 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:40:58,905 INFO purplesync - Querying correlation for test RT-003 -> status=Detected confidence=0.95
+2026-10-29 23:40:58,909 INFO purplesync - Querying SIEM for test RT-MAN
+2026-10-29 23:40:58,911 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:58,911 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:58,913 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:40:58,913 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:58,913 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:58,918 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:40:58,918 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:40:58,918 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:40:58,923 INFO purplesync - UI correlation complete for 3 tests
+2026-10-29 23:41:25,981 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-29 23:41:25,989 INFO purplesync - Querying correlation for test RT-MAN -> status=Detected confidence=0.95
+2026-10-29 23:41:25,991 INFO purplesync - Querying correlation for test RT-002 -> status=Detected confidence=0.95
+2026-10-29 23:41:25,991 INFO purplesync - Querying correlation for test RT-003 -> status=Detected confidence=0.95
+2026-10-29 23:41:25,991 INFO purplesync - Querying SIEM for test RT-MAN
+2026-10-29 23:41:25,991 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:41:25,991 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:41:25,993 INFO purplesync - Querying SIEM for test RT-002
+2026-10-29 23:41:25,993 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:41:25,993 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:41:25,993 INFO purplesync - Querying SIEM for test RT-003
+2026-10-29 23:41:25,993 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-29 23:41:25,993 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-29 23:41:25,995 INFO purplesync - UI correlation complete for 3 tests
+2026-10-30 00:25:04,000 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,001 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,002 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:25:04,002 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,002 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:25:04,002 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:04,004 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,006 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:04,008 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:04,008 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,008 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:04,008 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:04,008 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:04,008 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:04,012 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,012 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,012 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:25:04,013 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,013 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:25:04,013 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:04,013 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:25:04,014 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:04,014 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:25:04,014 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:04,014 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:25:04,015 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:04,032 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,032 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,034 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:04,035 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:25:04,041 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:25:04,044 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:25:04,056 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,056 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,056 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:25:04,059 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,059 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:04,061 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:04,062 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,193 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,193 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,193 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:25:50,194 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,194 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:25:50,194 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:50,198 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,198 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:50,200 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:50,200 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,200 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:50,200 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:50,200 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:25:50,200 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:50,202 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,202 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,203 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:25:50,203 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,204 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:25:50,204 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:25:50,204 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:25:50,204 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:50,205 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:25:50,205 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:50,205 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:25:50,205 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:50,215 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,216 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,219 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:25:50,221 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:25:50,227 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:25:50,229 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:25:50,237 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,237 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,238 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:25:50,239 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,240 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:25:50,241 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:25:50,241 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:28:45,040 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:28:45,040 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:28:45,043 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:28:45,043 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:28:45,044 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:28:45,045 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:28:45,045 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:28:45,045 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:28:45,045 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:28:45,045 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,045 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,046 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:28:45,046 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:28:45,046 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,046 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,047 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:28:45,047 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:28:45,047 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,047 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:28:45,049 INFO purplesync - UI correlation complete for 5 tests
+2026-10-30 00:28:45,049 INFO purplesync - UI correlation complete for 5 tests
+2026-10-30 00:29:03,451 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:29:03,451 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:29:03,451 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:30:40,139 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,139 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,139 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:30:40,139 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,140 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:30:40,140 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:30:40,144 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,144 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:30:40,146 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:30:40,146 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,146 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:30:40,146 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:30:40,146 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:30:40,147 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:30:40,149 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,150 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,150 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:30:40,150 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,150 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:30:40,151 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:30:40,151 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:30:40,151 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:30:40,152 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:30:40,152 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:30:40,152 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:30:40,152 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:30:40,166 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,167 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,271 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:30:40,274 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:30:40,284 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:30:40,290 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:30:40,307 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,307 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,307 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:30:40,310 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,311 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:30:40,313 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:30:40,313 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,232 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,233 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,233 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:31:02,233 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,233 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:31:02,233 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:31:02,236 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,238 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:31:02,239 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:31:02,239 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,239 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:31:02,239 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:31:02,240 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:31:02,240 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:31:02,241 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,242 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,242 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:31:02,242 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,242 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:31:02,242 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:31:02,242 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:31:02,242 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:31:02,243 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:31:02,243 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:31:02,243 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:31:02,243 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:31:02,256 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,257 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,258 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:31:02,259 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:31:02,269 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:31:02,271 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:31:02,281 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,281 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,282 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:31:02,284 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,284 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:31:02,286 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:31:02,286 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,516 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,516 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,517 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:32:37,517 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,517 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:32:37,517 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:37,520 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,521 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:37,523 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:37,523 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,523 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:37,523 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:37,524 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:37,524 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:37,525 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,526 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,526 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:32:37,526 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,526 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:32:37,526 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:37,526 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:32:37,527 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:37,527 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:32:37,527 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:37,527 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:32:37,527 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:37,538 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,538 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,540 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:37,542 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:32:37,547 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:32:37,551 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:32:37,562 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,562 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,563 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:32:37,565 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,565 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:37,567 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:37,567 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,644 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,644 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,644 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:32:49,644 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,645 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:32:49,646 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:49,649 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,650 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:49,652 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:49,652 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,653 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:49,653 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:49,653 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 00:32:49,653 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:49,656 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,656 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,657 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 00:32:49,657 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,657 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 00:32:49,657 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 00:32:49,657 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 00:32:49,657 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:49,658 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 00:32:49,658 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:49,658 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 00:32:49,658 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:49,674 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,674 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,676 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 00:32:49,678 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:32:49,685 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:32:49,689 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 00:32:49,701 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,701 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,702 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 00:32:49,704 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,705 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 00:32:49,707 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 00:32:49,708 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,096 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,096 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,096 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,096 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,096 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,102 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,102 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,102 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,102 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,102 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,104 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,104 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,106 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:42:56,106 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,106 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:42:56,106 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,106 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:42:56,106 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,108 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,108 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,108 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,108 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,108 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,108 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,108 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:42:56,108 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,109 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 08:42:56,109 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,109 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 08:42:56,109 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,109 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 08:42:56,109 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,109 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 08:42:56,109 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,112 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,112 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,112 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,112 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,112 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:42:56,112 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:42:56,112 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:42:56,112 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 08:42:56,112 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 08:42:56,112 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 08:42:56,112 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 08:42:56,116 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,116 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,116 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:42:56,130 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,130 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,132 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:42:56,133 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 08:42:56,142 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 08:42:56,145 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 08:42:56,300 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,301 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,301 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 08:42:56,303 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,303 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:42:56,304 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:42:56,304 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,453 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,453 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,453 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,453 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,453 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,463 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,463 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,463 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,463 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,463 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,463 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:44:05,463 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,463 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 08:44:05,463 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,463 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 08:44:05,463 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,463 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 08:44:05,463 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,463 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 08:44:05,469 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,471 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,471 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,471 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,471 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,471 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 08:44:05,471 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 08:44:05,471 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:44:05,471 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 08:44:05,471 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 08:44:05,471 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 08:44:05,471 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 08:44:05,477 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,477 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,477 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 08:44:05,489 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,489 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,489 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 08:44:05,494 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 08:44:05,502 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 08:44:05,504 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 08:44:05,506 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,506 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,506 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 08:44:05,506 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,506 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 08:44:05,518 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 08:44:05,518 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:18:42,892 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 11:18:42,894 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:18:42,894 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 11:18:42,894 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:18:42,896 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 11:18:42,896 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:18:42,896 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 11:18:42,897 WARNING purplesync - TinyFish check failed for test RT-001: SIEM host is not on the allowlist. TinyFish may only open the mock SIEM.
+2026-10-30 11:18:42,897 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 11:18:42,897 WARNING purplesync - TinyFish check failed for test RT-002: SIEM host is not on the allowlist. TinyFish may only open the mock SIEM.
+2026-10-30 11:18:42,897 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 11:18:42,897 WARNING purplesync - TinyFish check failed for test RT-003: SIEM host is not on the allowlist. TinyFish may only open the mock SIEM.
+2026-10-30 11:18:42,898 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 11:18:42,898 WARNING purplesync - TinyFish check failed for test RT-004: SIEM host is not on the allowlist. TinyFish may only open the mock SIEM.
+2026-10-30 11:18:42,898 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 11:18:42,898 WARNING purplesync - TinyFish check failed for test RT-005: SIEM host is not on the allowlist. TinyFish may only open the mock SIEM.
+2026-10-30 11:18:51,700 INFO purplesync - UI correlation complete for 5 tests
+2026-10-30 11:35:53,784 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,785 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,789 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,789 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,792 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,793 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,793 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,794 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,794 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,794 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,798 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,798 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,800 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 11:35:53,801 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,801 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 11:35:53,801 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,801 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 11:35:53,801 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,804 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,804 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,804 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,804 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,804 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,805 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,805 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 11:35:53,805 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,805 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 11:35:53,805 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,806 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 11:35:53,806 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,806 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 11:35:53,806 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,806 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 11:35:53,807 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,812 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,812 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,813 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,813 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,813 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 11:35:53,813 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:35:53,813 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 11:35:53,813 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 11:35:53,814 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 11:35:53,814 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 11:35:53,814 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 11:35:53,822 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,823 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,824 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 11:35:53,843 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,844 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,849 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 11:35:53,853 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 11:35:53,873 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:35:53,881 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:35:53,902 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,902 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,903 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 11:35:53,909 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,909 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:35:53,912 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 11:35:53,913 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:39:39,815 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 11:39:39,818 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:39:39,818 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 11:39:39,819 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 11:39:39,819 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 11:39:39,819 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 11:39:39,819 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 11:39:39,820 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:39:41,720 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish API returned HTTP 401
+2026-10-30 11:39:41,721 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 11:39:41,722 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:39:43,083 WARNING purplesync - TinyFish check failed for test RT-002: TinyFish API returned HTTP 401
+2026-10-30 11:39:43,085 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 11:39:43,085 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:39:44,595 WARNING purplesync - TinyFish check failed for test RT-003: TinyFish API returned HTTP 401
+2026-10-30 11:39:44,596 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 11:39:44,597 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:39:45,834 WARNING purplesync - TinyFish check failed for test RT-004: TinyFish API returned HTTP 401
+2026-10-30 11:39:45,835 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 11:39:45,836 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 11:39:47,297 WARNING purplesync - TinyFish check failed for test RT-005: TinyFish API returned HTTP 401
+2026-10-30 11:39:56,300 INFO purplesync - UI correlation complete for 5 tests
+2026-10-30 13:26:58,863 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,864 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,866 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,866 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,868 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,868 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,868 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,868 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,868 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,868 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,871 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,871 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,872 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:26:58,872 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,872 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:26:58,872 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,872 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:26:58,872 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,875 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,875 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,875 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,875 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,875 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,875 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,876 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,876 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,876 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 13:26:58,876 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,876 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 13:26:58,876 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,876 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 13:26:58,876 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,877 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 13:26:58,877 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,878 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,878 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,879 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,879 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,879 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:26:58,879 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,879 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,879 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 13:26:58,879 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 13:26:58,880 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 13:26:58,880 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 13:26:58,883 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,883 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,883 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,895 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,897 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,900 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,904 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:26:58,904 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,904 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,904 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,905 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 13:26:58,906 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:26:58,907 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,907 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,907 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,908 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 13:26:58,909 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,909 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,909 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,909 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 13:26:58,909 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,912 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:26:58,912 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:26:58,912 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:26:58,912 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,921 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,921 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,923 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:26:58,923 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 13:26:58,930 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,932 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:26:58,941 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,941 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,942 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 13:26:58,943 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,943 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:26:58,944 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:26:58,945 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,961 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,961 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,962 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,963 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,964 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,964 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,964 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,964 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,964 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,964 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,966 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,966 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,968 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:28:32,968 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,968 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:28:32,968 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,968 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 13:28:32,968 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,970 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,970 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,970 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,970 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,970 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,970 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,970 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:32,971 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:32,971 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 13:28:32,971 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:32,971 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 13:28:32,971 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:32,971 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 13:28:32,971 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:32,971 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 13:28:32,971 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:32,973 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,973 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,973 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,973 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,973 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 13:28:32,973 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,974 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:32,974 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 13:28:32,974 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 13:28:32,975 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 13:28:32,975 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 13:28:32,978 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:32,978 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:32,978 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:32,987 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:32,989 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:32,991 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:32,996 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:28:32,996 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,996 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:32,996 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:32,996 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 13:28:32,999 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:28:32,999 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:32,999 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:32,999 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:33,002 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 13:28:33,002 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:33,002 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:33,002 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:33,002 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 13:28:33,002 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:33,005 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 13:28:33,005 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 13:28:33,005 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 13:28:33,005 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:33,016 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:33,016 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:33,016 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 13:28:33,020 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 13:28:33,027 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:33,028 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 13:28:33,039 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:33,039 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:33,039 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 13:28:33,041 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:33,041 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 13:28:33,043 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 13:28:33,043 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,173 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,173 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,175 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,175 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,176 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,176 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,176 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,176 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,177 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,177 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,179 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,179 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,180 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:03:30,180 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,180 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:03:30,180 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,180 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:03:30,180 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,181 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,182 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,182 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,182 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,182 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,182 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,182 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:30,182 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:30,182 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:03:30,182 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:30,183 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:03:30,183 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:30,183 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:03:30,183 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:30,183 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:03:30,183 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:30,185 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,185 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,185 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,185 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,185 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:03:30,185 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:30,185 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:30,185 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:03:30,185 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:03:30,185 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:03:30,185 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:03:30,188 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:30,188 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:30,188 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:30,195 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:30,197 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:36,201 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,717 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:03:46,717 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,717 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:46,717 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,717 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:03:46,719 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:03:46,719 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,719 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:46,720 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,723 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:03:46,723 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,723 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,723 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,723 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:03:46,723 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,726 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:03:46,727 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:03:46,727 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:03:46,727 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:46,743 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:46,743 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:46,746 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:03:46,748 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:03:46,755 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,757 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:03:46,918 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:46,919 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:46,919 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:03:46,921 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:46,922 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:03:46,924 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:03:46,924 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,307 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,308 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,310 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,310 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,312 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,312 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,312 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,313 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,313 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,313 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,316 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,316 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,317 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:05:51,318 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,318 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:05:51,318 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,318 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:05:51,318 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,319 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,320 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,320 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,320 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,320 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,321 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,321 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:05:51,321 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:05:51,321 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:05:51,321 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:05:51,321 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:05:51,322 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:05:51,322 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:05:51,322 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:05:51,322 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:05:51,322 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:05:51,325 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,325 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,326 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,326 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,326 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:05:51,326 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:05:51,326 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:05:51,326 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:05:51,326 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:05:51,326 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:05:51,326 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:05:51,334 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:05:51,334 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:05:51,334 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:05:51,345 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:05:51,347 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:05:57,352 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,862 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:06:07,863 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,863 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:06:07,863 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,863 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:06:07,865 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:06:07,865 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,865 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:06:07,865 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,867 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:06:07,867 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,867 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,867 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,867 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:06:07,867 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,870 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:06:07,871 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:06:07,871 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:06:07,871 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:06:07,880 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:06:07,880 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:06:07,883 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:06:07,885 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:06:07,891 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,892 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:06:07,906 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:06:07,907 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:06:07,907 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:06:07,909 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:06:07,909 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:06:07,912 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:06:07,912 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,333 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,333 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,340 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,340 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,341 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,341 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,342 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,342 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,342 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,342 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,344 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,344 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,345 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:07:41,345 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,345 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:07:41,345 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,345 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:07:41,345 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,347 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,347 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,347 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,347 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,347 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,347 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,347 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:41,347 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:41,348 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:07:41,348 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:41,348 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:07:41,348 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:41,348 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:07:41,348 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:41,348 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:07:41,348 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:41,351 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,351 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,351 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,351 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,351 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:07:41,351 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:41,351 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:41,351 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:07:41,351 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:07:41,352 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:07:41,352 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:07:41,355 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:41,355 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:41,355 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:41,363 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:41,365 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:47,369 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,878 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:07:57,878 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,878 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:57,878 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,878 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:07:57,880 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:07:57,880 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,880 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:57,880 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,882 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:07:57,882 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,882 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,882 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,882 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:07:57,882 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,884 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:07:57,884 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:07:57,884 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:07:57,884 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:57,889 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:57,889 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:57,896 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:07:57,897 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:07:57,902 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,903 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:07:57,911 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:57,911 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:57,911 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:07:57,913 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:57,913 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:07:57,914 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:07:57,914 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,935 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,935 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,937 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,937 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,939 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,939 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,939 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,940 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,940 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,940 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,943 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,943 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,944 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:28:04,944 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,944 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:28:04,944 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,944 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:28:04,944 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,946 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,946 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,946 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,946 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,946 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,947 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,947 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:04,947 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:04,948 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:28:04,948 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:04,948 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:28:04,948 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:04,948 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:28:04,948 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:04,948 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:28:04,949 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:04,951 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,951 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,951 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,951 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,951 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:28:04,951 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:04,951 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:04,951 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:28:04,951 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:28:04,951 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:28:04,951 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:28:04,955 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:04,955 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:04,955 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:04,964 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:04,965 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:10,970 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,481 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:28:21,482 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,482 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:21,482 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,482 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:28:21,485 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:28:21,485 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,485 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:21,485 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,487 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:28:21,487 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,487 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,487 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,487 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:28:21,487 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,490 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:28:21,490 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:28:21,490 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:28:21,490 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:21,503 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:21,503 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:21,505 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:28:21,506 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:28:21,512 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,514 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:28:21,524 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:21,524 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:21,525 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:28:21,525 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:21,525 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:21,525 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:28:21,525 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:28:34,315 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 14:31:36,993 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:36,993 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:36,995 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:36,995 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:36,997 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:36,997 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:36,997 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:31:36,997 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:36,997 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:31:36,997 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,000 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:37,000 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,001 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:31:37,001 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,001 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:31:37,001 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,001 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:31:37,001 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,002 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:37,003 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,003 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:31:37,003 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,003 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:31:37,003 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,003 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:37,003 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:37,003 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:31:37,003 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:37,004 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:31:37,004 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:37,004 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:31:37,004 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:37,004 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:31:37,004 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:37,006 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:37,006 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,006 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:31:37,007 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,007 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:31:37,007 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:37,007 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:37,007 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:31:37,007 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:31:37,007 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:31:37,007 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:31:37,009 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:37,010 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:37,010 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:37,017 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:37,019 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:43,023 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,533 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:31:53,533 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,533 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:53,533 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,533 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:31:53,535 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:31:53,535 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,536 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:53,536 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,538 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:31:53,538 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,538 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,538 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,538 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:31:53,539 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,541 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:31:53,541 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:31:53,541 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:31:53,542 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:53,550 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:53,550 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:53,552 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:31:53,554 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:31:53,559 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,561 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:31:53,571 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:53,571 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:53,572 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:31:53,573 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:53,573 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:31:53,575 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:31:53,575 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,807 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,808 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,809 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,809 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,811 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,811 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,812 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,812 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,813 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,813 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,815 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,815 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,816 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:34:12,817 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,817 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:34:12,817 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,817 INFO purplesync - Correlating 1 Red Team tests against 1 Blue Team logs
+2026-10-30 14:34:12,817 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,818 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,818 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,818 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,818 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,818 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,818 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,819 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:12,819 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:12,819 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:34:12,819 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:12,820 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:34:12,820 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:12,820 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:34:12,820 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:12,820 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:34:12,820 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:12,822 INFO purplesync - Correlating 5 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,822 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,822 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,823 INFO purplesync - Correlated test RT-003 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,823 INFO purplesync - Correlated test RT-004 -> status=Detected confidence=0.95
+2026-10-30 14:34:12,823 INFO purplesync - Correlated test RT-005 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:12,823 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:12,823 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 14:34:12,823 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 14:34:12,824 INFO purplesync - Checking SIEM before remediation for test RT-004
+2026-10-30 14:34:12,824 INFO purplesync - Checking SIEM before remediation for test RT-005
+2026-10-30 14:34:12,828 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:12,828 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:12,828 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:12,836 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:12,839 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:18,844 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,356 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:34:29,356 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,356 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:29,356 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,356 WARNING purplesync - TinyFish check failed for test RT-001: TinyFish Agent returned HTTP 401 Unauthorized. The API key is missing, invalid, or expired. Generate a new key at https://agent.tinyfish.ai/api-keys and update TINYFISH_API_KEY. (code=auth_failure)
+2026-10-30 14:34:29,358 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:34:29,358 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,358 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:29,358 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,359 INFO purplesync - Correlating 3 Red Team tests against 0 Blue Team logs
+2026-10-30 14:34:29,359 INFO purplesync - Correlated test RT-000 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,359 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,359 INFO purplesync - Correlated test RT-002 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,360 INFO purplesync - Checking SIEM before remediation for test RT-000
+2026-10-30 14:34:29,360 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,362 INFO purplesync - Correlating 1 Red Team tests against 0 Blue Team logs
+2026-10-30 14:34:29,362 INFO purplesync - Correlated test RT-001 -> status=Insufficient Data confidence=0.2
+2026-10-30 14:34:29,362 INFO purplesync - Checking SIEM before remediation for test RT-001
+2026-10-30 14:34:29,362 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:29,373 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:29,373 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:29,376 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (before)
+2026-10-30 14:34:29,377 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:34:29,383 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,384 INFO purplesync - Querying SIEM via TinyFish for a bounded search (host allowlisted)
+2026-10-30 14:34:29,394 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:29,395 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:29,395 INFO purplesync - TinyFish demo mode: using local SIEM snapshot (after)
+2026-10-30 14:34:29,396 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:29,397 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 14:34:29,398 INFO purplesync - Correlating 1 Red Team tests against 5 Blue Team logs
+2026-10-30 14:34:29,398 INFO purplesync - Correlated test RT-001 -> status=Gap – missing evidence confidence=0.4
+2026-10-30 15:02:59,639 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-30 15:02:59,639 INFO purplesync - Correlated test RT-MAN -> status=Detected confidence=0.95
+2026-10-30 15:02:59,639 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 15:02:59,639 INFO purplesync - Correlated test RT-003 -> status=Detected confidence=0.95
+2026-10-30 15:02:59,639 INFO purplesync - Checking SIEM before remediation for test RT-MAN
+2026-10-30 15:02:59,639 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:02:59,639 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 15:02:59,644 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:02:59,644 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 15:02:59,644 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:03:12,072 INFO purplesync - UI correlation complete for 3 tests
+2026-10-30 15:32:45,425 INFO purplesync - Correlating 3 Red Team tests against 3 Blue Team logs
+2026-10-30 15:32:45,425 INFO purplesync - Correlated test RT-MAN -> status=Detected confidence=0.95
+2026-10-30 15:32:45,426 INFO purplesync - Correlated test RT-002 -> status=Detected confidence=0.95
+2026-10-30 15:32:45,426 INFO purplesync - Correlated test RT-003 -> status=Detected confidence=0.95
+2026-10-30 15:32:45,427 INFO purplesync - Checking SIEM before remediation for test RT-MAN
+2026-10-30 15:32:45,427 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:32:45,428 INFO purplesync - Checking SIEM before remediation for test RT-002
+2026-10-30 15:32:45,428 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:32:45,430 INFO purplesync - Checking SIEM before remediation for test RT-003
+2026-10-30 15:32:45,430 INFO purplesync - Mock SIEM: direct local backend communication (before)
+2026-10-30 15:32:45,432 INFO purplesync - UI correlation complete for 3 tests

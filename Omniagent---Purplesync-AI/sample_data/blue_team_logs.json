@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "2026-10-29T14:01:12Z",
+    "asset_id": "lab-web-01",
+    "source": "proxy-edge-01",
+    "alert_name": "Suspicious HTTP beacon",
+    "technique_id": "T1071.001",
+    "message": "Repeated HTTP POST to rare domain from workstation 10.2.9.44. Nearby inspection signature did not fire.",
+    "severity": "medium",
+    "rule_id": "WEB-BEACON-1"
+  },
+  {
+    "timestamp": "2026-10-29T14:08:41Z",
+    "asset_id": "lab-mail-01",
+    "source": "email-gw",
+    "alert_name": "Phishing email detected",
+    "technique_id": "T1566",
+    "message": "Message matched credential-harvest template; URL rewritten and quarantined.",
+    "severity": "high",
+    "rule_id": "MAIL-PHISH-22"
+  },
+  {
+    "timestamp": "2026-10-29T14:12:03Z",
+    "asset_id": "lab-idp-01",
+    "source": "auth-idp",
+    "alert_name": "Successful login",
+    "technique_id": "T1078",
+    "message": "Valid login for lab-user-07 from ASN not previously seen. No impossible-travel correlation.",
+    "severity": "low",
+    "rule_id": "AUTH-SUCCESS"
+  },
+  {
+    "timestamp": "2026-10-29T14:18:55Z",
+    "asset_id": "lab-win-01",
+    "source": "edr-windows",
+    "alert_name": "Encoded PowerShell",
+    "technique_id": "T1059.001",
+    "message": "powershell.exe -enc invoked; command block-logged and alerted.",
+    "severity": "high",
+    "rule_id": "EDR-PS-ENC"
+  },
+  {
+    "timestamp": "2026-10-29T14:22:10Z",
+    "asset_id": "lab-net-01",
+    "source": "dns-collector",
+    "alert_name": "Rare domain lookup",
+    "technique_id": "T1071",
+    "message": "First-seen domain queried by 10.2.9.44. Unrelated to scanning.",
+    "severity": "info",
+    "rule_id": "DNS-RARE"
+  }
+]

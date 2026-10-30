@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>PurpleSync Mock SIEM</title>
+  <style>
+    body { font-family: sans-serif; background: #0f1117; color: #ede9fe; margin: 2rem; }
+    h1 { color: #c4b5fd; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #4c1d95; padding: 0.5rem 0.75rem; text-align: left; }
+    th { background: #1e1b4b; }
+    .ok { color: #86efac; }
+    .gap { color: #fca5a5; }
+  </style>
+</head>
+<body>
+  <h1>PurpleSync Mock SIEM</h1>
+  <p>Allowlisted demo page for TinyFish. Not a production SIEM.</p>
+  <label>Search alerts: <input id="q" placeholder="IDS rule Y" /></label>
+  <table>
+    <thead>
+      <tr><th>Time</th><th>Alert</th><th>Rule</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>14:08Z</td><td>Phishing email detected</td><td>MAIL-PHISH-22</td><td class="ok">open</td></tr>
+      <tr><td>14:18Z</td><td>Encoded PowerShell</td><td>EDR-PS-ENC</td><td class="ok">open</td></tr>
+      <tr><td>—</td><td>IDS rule Y</td><td>IDS-Y</td><td class="gap">missing before remediation</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>

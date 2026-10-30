@@ -1,0 +1,46 @@
+{
+  "before": {
+    "label": "Mock SIEM – before remediation",
+    "page_title": "PurpleSync Mock SIEM",
+    "screenshot_note": "Before-fix view: IDS rule Y is absent from the alert table.",
+    "alerts": [
+      {
+        "name": "Phishing email detected",
+        "rule": "MAIL-PHISH-22",
+        "message": "Quarantined phishing message visible in SIEM."
+      },
+      {
+        "name": "Encoded PowerShell",
+        "rule": "EDR-PS-ENC",
+        "message": "EDR PowerShell encoding alert is present."
+      }
+    ]
+  },
+  "after": {
+    "label": "Mock SIEM – after remediation",
+    "page_title": "PurpleSync Mock SIEM",
+    "screenshot_note": "After-fix view: IDS rule Y now appears after the detection was enabled.",
+    "alerts": [
+      {
+        "name": "Phishing email detected",
+        "rule": "MAIL-PHISH-22",
+        "message": "Quarantined phishing message visible in SIEM."
+      },
+      {
+        "name": "Encoded PowerShell",
+        "rule": "EDR-PS-ENC",
+        "message": "EDR PowerShell encoding alert is present."
+      },
+      {
+        "name": "IDS rule Y",
+        "rule": "IDS-Y",
+        "message": "IDS rule Y triggered on malicious HTTP request after the signature was enabled."
+      },
+      {
+        "name": "Network scan detected",
+        "rule": "NSM-SCAN",
+        "message": "Lab subnet scan now raises Network scan detected."
+      }
+    ]
+  }
+}

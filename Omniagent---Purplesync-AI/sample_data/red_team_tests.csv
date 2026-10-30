@@ -1,0 +1,3 @@
+test_id,name,technique_id,expected_detection,keywords,description,asset_id,executed_at,time_window_minutes
+RT-001,Simulated malicious HTTP request,T1071.001,IDS rule Y,"malicious http,ids,c2",Red Team sent a crafted HTTP request that should hit IDS rule Y.,lab-web-01,2026-10-29T14:01:00Z,15
+RT-002,Simulated phishing,T1566,Phishing email detected,"phish,credential harvest",Credential-harvesting email to a mailbox honeypot.,lab-mail-01,2026-10-29T14:08:00Z,15
